@@ -1,0 +1,48 @@
+main {
+  padding: 10px;
+}
+  
+.container {
+  margin-top: 2%;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #aaa9a9;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button[type="btn-add"] {
+  width: 12em;
+  height: 3em;
+}
+  
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+  
